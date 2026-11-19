@@ -1,5 +1,5 @@
-const CACHE="kamuyot-1795090888519";
-const ASSETS=["./","./.nojekyll","./apple-touch-icon.png","./assets/NotoSansHebrew-Bold-Dz29mIJN.ttf","./assets/NotoSansHebrew-Regular-CEsPDsyu.ttf","./assets/index-CJGn5BY7.js","./assets/style-C9SRruK6.css","./icon-192.png","./icon-512.png","./index.html","./manifest.webmanifest"];
+const CACHE="kamuyot-1795092533999";
+const ASSETS=["./","./.nojekyll","./apple-touch-icon.png","./assets/NotoSansHebrew-Bold-Dz29mIJN.ttf","./assets/NotoSansHebrew-Regular-CEsPDsyu.ttf","./assets/index-DYttQZSB.js","./assets/style-C9SRruK6.css","./icon-192.png","./icon-512.png","./index.html","./manifest.webmanifest"];
 self.addEventListener("install",(event)=>{
   event.waitUntil(caches.open(CACHE).then((cache)=>cache.addAll(ASSETS)).then(()=>self.skipWaiting()));
 });
